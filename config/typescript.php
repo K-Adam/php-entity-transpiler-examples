@@ -26,7 +26,7 @@ return [
                         "fileNameFormat" => Writer::KEBAB_CASE
                     ],
                     "classNameResolver" => ["format"=>Writer::PASCAL_CASE],
-                    "enumNameFormat" => Writer::PASCAL_CASE,
+                    "enumResolver" => ["propertyNameFormat"=>Writer::PASCAL_CASE],
                     "transformer" => [
                         "type" => Transformer::TYPE_COMPOSITION,
                         "transformers" => [
