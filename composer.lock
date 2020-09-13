@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd338b858d2dfa701f38a551683e736b",
+    "content-hash": "b38eefd3f8ddf6ffdabc4c3a66c0bf86",
     "packages": [],
     "packages-dev": [
         {
@@ -200,7 +200,7 @@
         },
         {
             "name": "k-adam/entity-transpiler",
-            "version": "dev-master",
+            "version": "0.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/K-Adam/php-entity-transpiler.git",
@@ -424,9 +424,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "k-adam/entity-transpiler": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

@@ -10,7 +10,7 @@
     ],
     "require": {},
     "require-dev": {
-        "k-adam/entity-transpiler": "dev-master"
+        "k-adam/entity-transpiler": "^0.0.1"
     },
     "autoload": {
         "psr-4": {
