@@ -8,12 +8,6 @@
             "email": "kecskes.adam@outlook.com"
         }
     ],
-	"repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:K-Adam/php-entity-transpiler.git"
-        }
-    ],
     "require": {},
     "require-dev": {
         "k-adam/entity-transpiler": "dev-master"

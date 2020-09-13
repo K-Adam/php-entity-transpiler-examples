@@ -1,11 +1,12 @@
 import { TicketStatus } from "./ticket-status";
 import { Response } from "./response";
 import { User } from "../user";
+import { DateTime } from "../utils/date-time";
 
 export class Ticket {
-  id: number;
-  status: TicketStatus;
-  responses: Array<Response>;
+  id: number = 0;
+  status: TicketStatus = "OPEN";
+  responses: Array<Response> = [];
   createdBy: User;
-  createdAt: string;
+  createdAt: DateTime;
 }

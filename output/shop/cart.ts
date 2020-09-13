@@ -5,4 +5,5 @@ export class Cart {
   id: number;
   user: User;
   entries: Array<CartEntry>;
+  productCounts: {[productId:number]:number};
 }

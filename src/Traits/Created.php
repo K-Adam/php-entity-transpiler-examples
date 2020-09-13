@@ -11,7 +11,8 @@ trait Created {
 
     /**
      * Use DateTime::class if you would like to have a Date object
-     * @ET\Property(type="string")
+     * Or use a type alias to string, like this:
+     * @ET\Property(type=App\Utils\DateTime::class)
      */
     private $createdAt;
 

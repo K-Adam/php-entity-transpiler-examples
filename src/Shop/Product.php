@@ -18,7 +18,10 @@ class Product {
 
     /** @ET\Property(type="int") */
     private $price;
-	
+
+    /** @ET\Property(type=ProductStatus::class) */
+    private $status;
+
     public function getId(){
         return $this->id;
     }
@@ -46,5 +49,5 @@ class Product {
     public function setPrice($price){
         $this->price = $price;
     }
-	
+
 }

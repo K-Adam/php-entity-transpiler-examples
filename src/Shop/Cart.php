@@ -6,7 +6,11 @@ use EntityTranspiler\Annotations as ET;
 
 use App\Shop\Cart\Entry;
 
-/** @ET\Entity */
+// Additional properties can be added using the extraProperties annotation
+/** @ET\Entity(extraProperties={
+ *   @ET\Property(name="productCounts",type="{[productId:int]:int}")
+ *  })
+ */
 class Cart {
 
     /** @ET\Property(type="int") */

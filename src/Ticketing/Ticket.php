@@ -11,13 +11,13 @@ class Ticket {
 
     use Created;
 
-    /** @ET\Property(type="int") */
+    /** @ET\Property(type="int", default=0) */
     private $id;
 
-    /** @ET\Property(type=TicketStatus::class) */
+    /** @ET\Property(type=TicketStatus::class, default=TicketStatus::OPEN) */
     private $status;
 
-    /** @ET\Property(type=@ET\Collection(Response::class)) */
+    /** @ET\Property(type=@ET\Collection(Response::class), default={}) */
     private $responses;
 
 }
