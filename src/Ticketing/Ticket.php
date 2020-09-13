@@ -14,7 +14,7 @@ class Ticket {
     /** @ET\Property(type="int", default=0) */
     private $id;
 
-    /** @ET\Property(type=TicketStatus::class, default=TicketStatus::OPEN) */
+    /** @ET\Property(type=TicketStatus::class) */
     private $status;
 
     /** @ET\Property(type=@ET\Collection(Response::class), default={}) */
